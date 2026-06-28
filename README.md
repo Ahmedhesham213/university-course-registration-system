@@ -1,372 +1,292 @@
 <div align="center">
 
 # 🎓 MTIS
-### Management Technology and Information Systems
-**نظام تسجيل المواد الإلكتروني**
-## 📸 System Screenshots
 
-<div align="center">
+### Management Technology & Information Systems
 
-### 🔐 Login Page
-<img src="screenshots/login.jpeg" width="700">
+### 🚀 Smart Digital Course Registration System
+
+<p>
+  <img src="https://img.shields.io/badge/Laravel-12-red?style=for-the-badge&logo=laravel">
+  <img src="https://img.shields.io/badge/PHP-8.2-blue?style=for-the-badge&logo=php">
+  <img src="https://img.shields.io/badge/MySQL-8-orange?style=for-the-badge&logo=mysql">
+  <img src="https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge&logo=bootstrap">
+  <img src="https://img.shields.io/badge/License-Educational-success?style=for-the-badge">
+</p>
+
+### 📄 From Paper Registration ➜ Digital Workflow
+
+Electronic Course Registration System with:
+
+✔ Digital Signatures
+✔ QR Verification
+✔ PDF Generation
+✔ AES-256 Encryption
+✔ Multi-Role Management
 
 ---
 
-### 💳 Payment Data Entry
-<img src="screenshots/payment-data.jpeg" width="700">
+## 📸 System Preview
+
+<img src="screenshots/login.jpeg" width="850">
+
+> Complete screenshots are available below.
+
+---
+
+## ✨ Features
+
+| Feature                      | Description                                  |
+| ---------------------------- | -------------------------------------------- |
+| 🔐 Multi Role Authentication | Student • Academic Advisor • Student Affairs |
+| ✍ Electronic Signature       | Canvas Based Digital Signature               |
+| 🔒 AES-256 Encryption        | Secure Signature Storage                     |
+| 📄 Automatic PDF             | Official Registration Form                   |
+| 📱 QR Verification           | Scan & Verify Anywhere                       |
+| 📊 Live Tracking             | Real-time Registration Status                |
+| 📥 Receipt Validation        | Prevent Duplicate Receipts                   |
+| ⚡ Auto Fill                  | Academic Advisor Detection                   |
+| 📚 Dynamic Templates         | Department & Level Subjects                  |
+
+---
+
+# 📷 Screenshots
+
+### 🔐 Login
+
+<img src="screenshots/login.jpeg">
+
+---
+
+### 💳 Payment Information
+
+<img src="screenshots/payment-data.jpeg">
 
 ---
 
 ### 📚 Course Registration
-<img src="screenshots/courses-registration.jpeg" width="700">
+
+<img src="screenshots/courses-registration.jpeg">
 
 ---
 
-### ✍️ Student Signature & Doctor Approval
-<img src="screenshots/doctor-approval-signature.jpeg" width="700">
+### ✍ Student Signature
+
+<img src="screenshots/doctor-approval-signature.jpeg">
 
 ---
 
-### 🔄 Tracking System
-<img src="screenshots/tracking-system.jpeg" width="700">
+### 📊 Tracking System
+
+<img src="screenshots/tracking-system.jpeg">
 
 ---
 
-### 👨‍🏫 Academic Advisor Dashboard
-<img src="screenshots/advisor-dashboard.jpeg" width="700">
+### 👨‍🏫 Advisor Dashboard
+
+<img src="screenshots/advisor-dashboard.jpeg">
 
 ---
 
 ### 🏢 Student Affairs Dashboard
-<img src="screenshots/admin-dashboard.jpeg" width="700">
+
+<img src="screenshots/admin-dashboard.jpeg">
 
 ---
 
-### 📋 Review Request (Student Affairs)
-<img src="screenshots/review-request.jpeg" width="700">
+### 📋 Request Review
+
+<img src="screenshots/review-request.jpeg">
 
 ---
 
-### 📄 Final Approved Document (PDF)
-<img src="screenshots/final-pdf.jpeg" width="700">
+### 📄 Generated PDF
+
+<img src="screenshots/final-pdf.jpeg">
 
 ---
 
-### 📱 QR Code Verification System
-<img src="screenshots/qr-verification.png" width="700">
+### 📱 QR Verification
 
-</div>
----
-
-*نظام إلكتروني متكامل يُحوّل عملية تسجيل المواد الدراسية من ورق إلى رقمي — بتوقيعات مشفرة وQR Code وPDF رسمي*
-
-</div>
+<img src="screenshots/qr-verification.png">
 
 ---
 
-## 📋 فهرس المحتويات
+# ⚙ Workflow
 
-- [لقطات من النظام](#-لقطات-من-النظام)
-- [المميزات](#-المميزات)
-- [المتطلبات](#-المتطلبات)
-- [التثبيت السريع](#-التثبيت-السريع)
-- [هيكل المشروع](#-هيكل-المشروع)
-- [الأدوار والصلاحيات](#-الأدوار-والصلاحيات)
-- [كيفية الاستخدام](#-كيفية-الاستخدام)
-- [التقنيات المستخدمة](#-التقنيات-المستخدمة)
-- [قاعدة البيانات](#-قاعدة-البيانات)
-- [الأمان](#-الأمان)
-- [المساهمة](#-المساهمة)
-
----
-
-## ✨ المميزات
-
-| الميزة | التفاصيل |
-|--------|----------|
-| 🔐 **3 أدوار مختلفة** | طالب — مرشد أكاديمي — شؤون طلابية |
-| ✍️ **توقيع إلكتروني** | Canvas تفاعلي بالماوس أو اللمس |
-| 🔒 **تشفير كامل** | التوقيعات مشفرة AES-256 لا يراها أحد |
-| 📄 **PDF رسمي** | يُولَّد تلقائياً بكل التوقيعات والختم |
-| 📱 **QR Verification** | تحقق فوري من أي ورقة بكاميرا الموبايل |
-| 🔍 **تتبع لحظي** | الطالب يرى خط سير ورقته في الوقت الفعلي |
-| ⚡ **Auto-fill** | اسم المرشد يُكتب تلقائياً من البريد الإلكتروني |
-| 🧾 **التحقق من الإيصال** | رقم الإيصال يُستخدم مرة واحدة فقط |
-| 📋 **فورمات مرنة** | الشؤون تتحكم في قائمة المواد لكل قسم ومستوى |
-
----
-
-## 💻 المتطلبات
-
-قبل التثبيت تأكد من وجود:
-
-- **PHP** >= 8.2 مع Extensions: `gd`, `mbstring`, `openssl`, `pdo_mysql`, `fileinfo`
-- **Composer** >= 2.x
-- **MySQL** >= 8.x أو MariaDB >= 10.x
-- **Node.js** >= 18.x و npm
-- **XAMPP** (لبيئة Windows) أو أي LAMP/LEMP server
+```text
+Student Payment
+      │
+      ▼
+Upload Receipt
+      │
+      ▼
+Course Registration
+      │
+      ▼
+Student Signature
+      │
+      ▼
+Advisor Review
+      │
+      ▼
+Advisor Signature
+      │
+      ▼
+Student Affairs Review
+      │
+      ▼
+Approval
+      │
+      ▼
+Generate PDF + QR
+      │
+      ▼
+Student Downloads Official Document
+```
 
 ---
 
-## 🚀 التثبيت السريع
+# 🛠 Technology Stack
 
-### الخطوة 1 — استنساخ المشروع
+## Backend
+
+* Laravel 12
+* PHP 8.2
+* MySQL 8
+* Laravel Eloquent
+* mPDF
+* endroid/qr-code
+
+---
+
+## Frontend
+
+* Blade
+* Bootstrap RTL
+* Bootstrap Icons
+* JavaScript
+* Canvas API
+* Fetch API
+
+---
+
+## Security
+
+* AES-256 Encryption
+* bcrypt Password Hashing
+* CSRF Protection
+* Role Middleware
+* Unique Receipt Validation
+* Secure Storage
+* QR Hash Verification
+
+---
+
+# 🚀 Installation
+
 ```bash
-cd C:\xampp\htdocs
 git clone https://github.com/YOUR_USERNAME/MTIS.git
+
 cd MTIS
-```
 
-### الخطوة 2 — تثبيت الـ Dependencies
-```bash
 composer install
+
 npm install
-```
 
-### الخطوة 3 — إعداد ملف البيئة
-```bash
 copy .env.example .env
+
 php artisan key:generate
-```
 
-ثم افتح `.env` وعدّل:
-```env
-APP_NAME=MTIS
-APP_URL=http://localhost/MTIS/public
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=mtis_db
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### الخطوة 4 — إنشاء قاعدة البيانات
-افتح `http://localhost/phpmyadmin` وأنشئ قاعدة بيانات اسمها `mtis_db` بـ collation: `utf8mb4_unicode_ci`
-
-### الخطوة 5 — تشغيل الـ Migrations
-```bash
 php artisan migrate
-php artisan db:seed --class=AdminSeeder
-php artisan storage:link
-```
 
-### الخطوة 6 — تشغيل المشروع
-```bash
+php artisan db:seed --class=AdminSeeder
+
+php artisan storage:link
+
 php artisan serve
 ```
 
-افتح المتصفح على: `http://127.0.0.1:8000`
+---
+
+# 🔑 Demo Accounts
+
+| Role             | Email                                             | Password     |
+| ---------------- | ------------------------------------------------- | ------------ |
+| Student Affairs  | [shuoun@mtis.edu.eg](mailto:shuoun@mtis.edu.eg)   | Shuoun@2024  |
+| Academic Advisor | [ahmed@mtis.edu.eg](mailto:ahmed@mtis.edu.eg)     | Doctor@2024  |
+| Student          | [student@mtis.edu.eg](mailto:student@mtis.edu.eg) | Student@2024 |
 
 ---
 
-## 🔑 حسابات الدخول التجريبية
+# 📂 Project Structure
 
-| الدور | البريد | كلمة المرور |
-|-------|--------|-------------|
-| 🏢 الشؤون | `shuoun@mtis.edu.eg` | `Shuoun@2024` |
-| 👨‍🏫 الدكتور | `ahmed@mtis.edu.eg` | `Doctor@2024` |
-| 🎓 الطالب | `student@mtis.edu.eg` | `Student@2024` |
+```text
+app/
+ ├── Http
+ ├── Models
+ ├── Middleware
+ └── Providers
 
+database/
+ ├── migrations
+ └── seeders
 
----
+resources/
+ ├── views
+ ├── pdf
+ └── layouts
 
-## 📁 هيكل المشروع
-
-```
-MTIS/
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/
-│   │   │   ├── AuthController.php        # تسجيل الدخول والخروج
-│   │   │   ├── StudentController.php     # كل عمليات الطالب
-│   │   │   ├── DoctorController.php      # لوحة الدكتور والتوقيع
-│   │   │   └── ShuounController.php      # إدارة الشؤون الكاملة
-│   │   └── Middleware/
-│   │       └── RoleMiddleware.php        # التحقق من الصلاحيات
-│   ├── Models/
-│   │   ├── User.php                      # المستخدمون (3 أدوار)
-│   │   ├── RegistrationForm.php          # طلبات التسجيل
-│   │   ├── FormTemplate.php              # قوالب المواد
-│   │   ├── ReceiptNumber.php             # أرقام الإيصالات
-│   │   └── AdvisorAssignment.php         # إسناد الطلاب للدكاترة
-│   └── Providers/
-│       └── AppServiceProvider.php        # Blade Directives
-├── database/
-│   ├── migrations/                        # 5 migration files
-│   └── seeders/
-│       └── AdminSeeder.php               # بيانات تجريبية
-├── resources/
-│   └── views/
-│       ├── layouts/
-│       │   └── app.blade.php             # القالب الرئيسي
-│       ├── auth/
-│       │   ├── login.blade.php
-│       │   └── register.blade.php
-│       ├── student/
-│       │   ├── dashboard.blade.php
-│       │   ├── register-form.blade.php
-│       │   ├── subject-form.blade.php
-│       │   └── track.blade.php
-│       ├── doctor/
-│       │   ├── dashboard.blade.php
-│       │   ├── setup.blade.php
-│       │   └── form.blade.php
-│       ├── shuoun/
-│       │   ├── dashboard.blade.php
-│       │   ├── form.blade.php
-│       │   ├── templates.blade.php
-│       │   ├── template-form.blade.php
-│       │   ├── receipts.blade.php
-│       │   ├── doctors.blade.php
-│       │   ├── doctor-form.blade.php
-│       │   └── assignments.blade.php
-│       ├── pdf/
-│       │   └── registration.blade.php    # قالب الورقة الرسمية
-│       └── verify.blade.php              # صفحة QR Verification
-└── routes/
-    └── web.php                           # كل الـ Routes
+routes/
+ └── web.php
 ```
 
 ---
 
-## 👥 الأدوار والصلاحيات
+# 🔒 Security
 
-```
-┌─────────────────────────────────────────────────────┐
-│                     MTIS System                     │
-├───────────────┬──────────────────┬──────────────────┤
-│    طالب       │  مرشد أكاديمي   │      شؤون        │
-├───────────────┼──────────────────┼──────────────────┤
-│ تسجيل حساب   │ إعداد التوقيع   │ إضافة دكاترة    │
-│ تقديم طلب    │ مراجعة الطلبات  │ إسناد الطلاب    │
-│ اختيار مواد  │ التوقيع الرقمي  │ أرقام الإيصالات │
-│ التوقيع      │ إرسال للشؤون    │ فورمات المواد   │
-│ تتبع الورقة  │                  │ الاعتماد/الرفض  │
-│ تحميل PDF    │                  │ توليد PDF+QR    │
-└───────────────┴──────────────────┴──────────────────┘
-```
+✔ AES-256 Encryption
+
+✔ Laravel CSRF Protection
+
+✔ Role Based Authorization
+
+✔ Secure PDF Generation
+
+✔ QR Verification
+
+✔ Duplicate Receipt Prevention
+
+✔ Encrypted Digital Signatures
 
 ---
 
-## 🔄 خط سير العملية
+# 🤝 Contributing
 
-```
-الطالب يدفع الرسوم
-        ↓
-يسجل على الموقع ويرفع صورة الإيصال
-        ↓
-يختار المواد ويوقع إلكترونياً
-        ↓
-الورقة تذهب تلقائياً → المرشد الأكاديمي
-        ↓
-الدكتور يوقع بالتوقيع والختم المحفوظ
-        ↓
-الورقة تذهب تلقائياً → الشؤون
-        ↓
-الشؤون تعتمد ← النظام يولد PDF + QR
-        ↓
-الطالب يحمّل الورقة الرسمية ✅
+```bash
+Fork
+
+Create Branch
+
+Commit
+
+Push
+
+Open Pull Request
 ```
 
 ---
 
-## 🛠 التقنيات المستخدمة
+# 📜 License
 
-### Backend
-| التقنية | الإصدار | الاستخدام |
-|---------|---------|-----------|
-| PHP | 8.2+ | لغة البرمجة الأساسية |
-| Laravel | 12.x | إطار العمل |
-| mPDF | Latest | توليد PDF بدعم عربي كامل |
-| endroid/qr-code | Latest | توليد QR Code PNG |
-
-### Frontend
-| التقنية | الإصدار | الاستخدام |
-|---------|---------|-----------|
-| Blade Templates | - | محرك القوالب |
-| Bootstrap RTL | 5.3.2 | تنسيق الواجهة |
-| Bootstrap Icons | 1.11.0 | الأيقونات |
-| Canvas API | Native | رسم التوقيع الإلكتروني |
-| Fetch API | Native | Auto-fill للمرشد الأكاديمي |
-
-### Database
-| التقنية | الاستخدام |
-|---------|-----------|
-| MySQL 8.x | قاعدة البيانات الرئيسية |
-| Laravel Eloquent ORM | التعامل مع قاعدة البيانات |
-| Laravel Migrations | إدارة هيكل الجداول |
+Educational Use Only
 
 ---
 
-## 🗄 قاعدة البيانات
+<div align="center">
 
-```
-users                    registration_forms
-─────────────────        ──────────────────────────
-id (PK)                  id (PK)
-name                     student_id (FK→users)
-email (unique)           national_id
-password (bcrypt)        academic_email
-role (enum)              department
-academic_id              level
-national_id              receipt_number (unique)
-department               receipt_image_path
-level                    academic_advisor_name
-signature_data (enc)     subjects (JSON)
-stamp_path               student_signature (enc)
-                         status (enum)
-                         doctor_signature (enc)
-form_templates           doctor_stamp_path
-──────────────────       doctor_signed_at
-id (PK)                  approved_by (FK→users)
-department               approved_at
-level                    rejection_reason
-academic_year            unique_hash
-subjects (JSON)          qr_code_path
-is_active                pdf_path
-created_by (FK)
-                         advisor_assignments
-receipt_numbers          ───────────────────
-────────────────         id (PK)
-id (PK)                  doctor_id (FK→users)
-receipt_number (7)       student_email (unique)
-is_used
-used_by (FK→users)
-```
+### Faculty of Management Technology & Information Systems
 
----
+⭐ If you like this project, don't forget to Star the repository.
 
-## 🔒 الأمان
-
-- **كلمات المرور**: مشفرة بـ `bcrypt` — غير قابلة للقراءة حتى من قاعدة البيانات
-- **التوقيعات**: مشفرة بـ `AES-256` عبر `encrypt()/decrypt()` — لا تظهر لأحد
-- **الختم**: محفوظ في `storage/app/local` — غير متاح من URL مباشر
-- **الصلاحيات**: `RoleMiddleware` يحمي كل Route
-- **الإيصالات**: منع الاستخدام المكرر عبر `unique constraint + is_used flag`
-- **QR Hash**: عشوائي 64 حرف يستحيل تخمينه (`Str::random(64)`)
-- **CSRF**: كل Form محمي تلقائياً بـ Laravel
-
----
-
-## 🤝 المساهمة
-
-1. Fork المشروع
-2. أنشئ Branch جديد: `git checkout -b feature/اسم-الميزة`
-3. Commit التغييرات: `git commit -m 'إضافة ميزة كذا'`
-4. Push: `git push origin feature/اسم-الميزة`
-5. افتح Pull Request
-
----
-
-## 📝 الترخيص
-
-هذا المشروع مفتوح المصدر للأغراض التعليمية.
-
----
-
-
-#   u n i v e r s i t y - c o u r s e - r e g i s t r a t i o n - s y s t e m 
- 
- 
+</div>
