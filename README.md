@@ -366,8 +366,7 @@ used_by (FK→users)
 
 ---
 
-<div align="center">
-صُنع بـواسطة احمد سعد محمد خصيصً لكلية MTIS
-</div>
-#   u n i v e r s i t y - c o u r s e - r e g i s t r a t i o n - s y s t e m  
+
+#   u n i v e r s i t y - c o u r s e - r e g i s t r a t i o n - s y s t e m 
+ 
  
